@@ -8,7 +8,10 @@
 #ifndef UART_H_
 #define UART_H_
 
+
 #include "common_lib.h"
+
+// decleration of functions that will defined in uart.c 
 
 void UART_INIT();
 void UART_sendByte(const unsigned char data);
