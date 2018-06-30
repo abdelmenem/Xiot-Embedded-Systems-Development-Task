@@ -10,6 +10,8 @@
 
 #include "common_lib.h"
 
+//decleration of functions that will defined in adc.c
+
 void ADC_INIT();
 unsigned short ADC_read(unsigned char channel_num);
 
