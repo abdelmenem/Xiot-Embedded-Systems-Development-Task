@@ -26,7 +26,8 @@ int main()
 	{
 
 		temp = ADC_read(0);					// read value of temperature and store it in temp variable
-		temp = (temp*150*5)/(1023*1.5);     //convert received value into temperature value
+		temp = (temp*150*5)/(1023*1.5);     //convert received value into temperature value ,the mathimatics operation depend on the temp. sensor 
+						    // in that case in represent the temp sensor by lm35 to generate analog signal.	
 		itoa(temp,temperature_string,10);   // convert value to string to send it using uart
 		UART_sendString(temperature_string); // send using uart
 		_delay_ms(3000); 					// delay 3 seconds
