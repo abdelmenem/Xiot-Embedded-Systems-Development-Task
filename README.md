@@ -14,3 +14,4 @@ files of project divided into :-
   - uart.c & uart.h files that contains the functions required to use the uart feature like
       (UART_INIT & UART_sendByte & UART_sendString)   
       
+  - simulation files using proteus ISIS (xiot.dsn & xiot.PWI) 
